@@ -34,7 +34,7 @@ If you choose iOS (macOS only):
 
 Follow the following guide to setup the emulator:
 
-https://docs.flutter.dev/get-started/install/macos#ios-setup
+https://developer.apple.com/documentation/safari-developer-tools/installing-xcode-and-simulators
 
 start it by running this command in terminal:
 

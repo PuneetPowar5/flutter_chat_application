@@ -9,7 +9,6 @@ import 'screens/dashboard_webview.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Set the correct WebView implementation depending on the platform
   if (Platform.isAndroid) {
     WebViewPlatform.instance = AndroidWebViewPlatform();
   } else if (Platform.isIOS) {

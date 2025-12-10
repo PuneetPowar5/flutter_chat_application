@@ -27,7 +27,6 @@ class _DashboardWebViewState extends State<DashboardWebView> {
       url = "http://localhost:4200";
     }
 
-    // Initialize controller here — AFTER super.initState()
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..loadRequest(Uri.parse(url));

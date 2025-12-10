@@ -16,10 +16,10 @@ class _ChatScreenState extends State<ChatScreen> {
   final scrollController = ScrollController();
 
   final List<String> botReplies = [
-    "THIS IS AN AUTOMATED MESSAGE FROM THE APP",
-    "THIS IS AN AUTOMATED MESSAGE FROM THE APP",
-    "THIS IS AN AUTOMATED MESSAGE FROM THE APP",
-    "THIS IS AN AUTOMATED MESSAGE FROM THE APP",
+    "Hello, how are you??",
+    "IM BUSY!!",
+    "STOP TEXTING ME!!",
+    "Want to hang out???",
     "THIS IS AN AUTOMATED MESSAGE FROM THE APP",
   ];
 
